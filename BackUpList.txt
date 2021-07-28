@@ -1,0 +1,10 @@
+~/.config/alacritty/ 				| DotFiles/alacritty
+~/.config/bspwm 					| DotFiles/bspwm
+~/.config/krita 					| DotFiles/krita
+~/.config/nvim/coc-settings.json 	| DotFiles/nvim/coc-settings.json
+~/.config/nvim/init.vim 			| DotFiles/nvim/init.vim
+~/.config/picom 					| DotFiles/picom
+~/.config/polybar 					| DotFiles/polybar
+~/.config/start-up-scripts 			| DotFiles/start-up-scripts
+~/.config/scripts 					| DotFiles/scripts
+/usr/share/rime-data 				| DotFiles/rime-data
