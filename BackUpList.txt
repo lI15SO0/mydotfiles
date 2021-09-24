@@ -8,4 +8,6 @@
 ~/.config/start-up-scripts 			| DotFiles/start-up-scripts
 ~/.config/scripts 					| DotFiles/scripts
 ~/.config/aria2 					| DotFiles/aria2
+~/.config/nvim 						| nvim
 /usr/share/rime-data 				| DotFiles/rime-data
+

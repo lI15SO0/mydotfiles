@@ -20,6 +20,12 @@ fcitx5 > /dev/null &
 # BackGround Image
 feh --randomize --bg-scale ~/Pictures/WallPapers/* > /dev/null &
 
+# Motrix
+exec motrix &
+
+# ScreenShot 
+flameshot
+
 
 # ..:: BSP Init ::..
 
