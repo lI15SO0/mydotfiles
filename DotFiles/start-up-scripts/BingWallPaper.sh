@@ -33,5 +33,5 @@ do
   
     exit
   fi
-  sleep 30m
+  sleep 10s
 done
