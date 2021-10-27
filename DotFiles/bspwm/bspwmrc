@@ -24,7 +24,7 @@ feh --randomize --bg-scale ~/Pictures/WallPapers/* > /dev/null &
 exec motrix &
 
 # ScreenShot 
-flameshot
+flameshot &
 
 
 # ..:: BSP Init ::..
