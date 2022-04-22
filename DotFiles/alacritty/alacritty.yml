@@ -2,20 +2,20 @@ dynamic_title: true
 decorations: 'full'
 
 font:
-  size: 8.5
+  size: 7.5
 
   normal:
-    family: "Ubuntumono"
+    family: "FiraCode Nerd Font Mono"
 
   bold:
-    family: "Ubuntumono"
+    family: "FiraCode Nerd Font Mono"
     
   italic:
-    family: "Ubuntumono"
+    family: "FiraCode Nerd Font Mono"
     
   bold_italic:
-    family: "Ubuntumono"
-  
+    family: "FiraCode Nerd Font Mono"
+
   offset: 
     x: 0
     y: 0
@@ -30,5 +30,5 @@ window:
   padding:
     x: 0
     y: 0
-  opacity: 0.75
+  opacity: 0.85
 

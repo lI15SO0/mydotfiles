@@ -2,6 +2,9 @@
 
 # ..:: Start Task ::..
 
+# Audio
+cadence --minimized &
+
 # startup scripts
 sh ~/.config/scripts/startup.sh > /dev/null &
 
@@ -25,7 +28,6 @@ exec motrix &
 
 # ScreenShot 
 flameshot &
-
 
 # ..:: BSP Init ::..
 

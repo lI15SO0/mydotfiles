@@ -1,15 +1,17 @@
 #!/bin/bash
+#exit
 echo $touchPadId
 while true
 do
-	sleep 3s
-	MouseId=$(xinput | grep -i mouse |cut -d "=" -f 2| cut -d "[" -f 1)
+	MouseId=$(xinput | grep -i Razer |cut -d "=" -f 2| cut -d "[" -f 1)
 	touchPadId=$(xinput| grep -i touchpad | cut -d "=" -f 2| cut -d "[" -f 1)
-	if [ ! -z $MouseId ]
+	echo $MouseId
+	if [ ! -z "$MouseId" ]
 	then
 		xinput disable $touchPadId
 	else 
 		xinput enable $touchPadId
 	fi
+	sleep 5s
 done
 	

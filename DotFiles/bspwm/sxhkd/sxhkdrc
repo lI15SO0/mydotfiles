@@ -15,6 +15,9 @@ super + Return
 super + space
 	rofi -show run
 
+super + r
+	rofi -show drun
+
 ###############################
 # Function
 ###############################
@@ -23,12 +26,19 @@ super + space
 #Print
 #	~/.config/scripts/screenshot.sh
 
+# Screen Shot
+Print 
+	flameshot gui
+
+super + Print
+	flameshot screen
+
 # Volume
 XF86AudioRaiseVolume
-	amixer set Master 10%+
+	amixer set Master 2%+
 
 XF86AudioLowerVolume
-	amixer set Master 10%-
+	amixer set Master 2%-
 
 XF86AudioMute
 	amixer -D pulse set Master 1+ toggle
