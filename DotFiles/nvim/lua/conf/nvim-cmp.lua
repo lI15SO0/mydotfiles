@@ -80,7 +80,7 @@ cmp.setup(
             -- 选择补全
             ["<CR>"] = cmp.mapping.confirm(),
             --  出现或关闭补全
-            ["<C-k>"] = cmp.mapping(
+            ["<C-p>"] = cmp.mapping(
                 {
                     i = function()
                         if cmp.visible() then

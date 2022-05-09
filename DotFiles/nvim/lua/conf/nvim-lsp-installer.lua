@@ -24,6 +24,7 @@ local servers = {
 	rust_analyzer = require("lsp.rust_analyzer"),
 	pyright = require("lsp.pyright"),
 	clangd = require("lsp.clangd"),
+	taplo = require("lsp.taplo"),
 }
 
 -- 这里是 LSP 服务启动后的按键加载

@@ -2,7 +2,7 @@ dynamic_title: true
 decorations: 'full'
 
 font:
-  size: 7.5
+  size: 8.5
 
   normal:
     family: "FiraCode Nerd Font Mono"
@@ -17,8 +17,8 @@ font:
     family: "FiraCode Nerd Font Mono"
 
   offset: 
-    x: 0
-    y: 0
+    x: 1
+    y: -1
 
   glyph_offset:
     x: 0

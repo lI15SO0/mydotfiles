@@ -101,6 +101,7 @@ packer.startup(
 				"sbdchd/neoformat",
 				"folke/lsp-colors.nvim",
 				"liuchengxu/vista.vim",
+				"p00f/nvim-ts-rainbow", -- 彩虹括号
 			}
 
 			use {

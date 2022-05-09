@@ -4,9 +4,9 @@
 require("nvim-treesitter.configs").setup(
     {
         -- 安装的高亮支持来源
-        ensure_installed = "maintained",
+        ensure_installed = {"rust", "python", "c", "toml"}, 
         -- 同步下载高亮支持
-        sync_install = false,
+        sync_install = true, 
         -- 高亮相关
         highlight = {
             -- 启用高亮支持
