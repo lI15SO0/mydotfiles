@@ -17,6 +17,9 @@ vim.keybinds.gmap("c", "<space><space>", "<enter>", vim.keybinds.opts)
 vim.keybinds.gmap("n", "d", "dd", vim.keybinds.opts)
 vim.keybinds.gmap("n", "y", "yy", vim.keybinds.opts)
 
+-- 使用 U 来重做
+vim.keybinds.gmap("n", "U", ":redo<CR>", vim.keybinds.opts)
+
 -- 插入模下 erui 退出插入模式
 vim.keybinds.gmap("i", "erui", "<Esc>", vim.keybinds.opts)
 

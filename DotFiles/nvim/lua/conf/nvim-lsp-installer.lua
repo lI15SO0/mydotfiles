@@ -20,10 +20,11 @@ local servers = {
     -- zeta_note = require("lsp.zeta_note"),
     -- sqls = require("lsp.sqls"),
     -- vuels = require("lsp.vuels")
-	sumneko_lua = require("lsp.sumneko_lua"),
 	rust_analyzer = require("lsp.rust_analyzer"),
+	sumneko_lua = require("lsp.sumneko_lua"),
 	pyright = require("lsp.pyright"),
 	clangd = require("lsp.clangd"),
+	texlab = require("lsp.texlab"),
 	taplo = require("lsp.taplo"),
 }
 

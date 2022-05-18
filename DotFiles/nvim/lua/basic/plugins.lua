@@ -46,6 +46,7 @@ packer.startup(
 				requires = {
 						"famiu/bufdelete.nvim" -- 删除 buffer 时不影响现有布局
 				},
+				"stevearc/aerial.nvim" -- 大纲
 			}
 			-- 为了能让状态栏显示 git 信息，所以这个插件是必须的
 			use {
@@ -91,7 +92,7 @@ packer.startup(
 				"neovim/nvim-lspconfig",
 				"williamboman/nvim-lsp-installer",
 				"tami5/lspsaga.nvim",
-				
+
 				"j-hui/fidget.nvim",
 				"ray-x/lsp_signature.nvim",
 				"kosayoda/nvim-lightbulb",
@@ -147,22 +148,18 @@ packer.startup(
 				end
 			}
 
-			--[[
 			-- 全局替换
 			use {
-				"nvim-pack/nvim-spectre",
-				requires = {
-						"nvim-lua/plenary.nvim", -- Lua 开发模块
-						--"BurntSushi/ripgrep" -- 文字查找
-				},
-				config = function()
-						require("co
-    "tami5/lspsaga.nvim",nf.nvim-spectre")
-				end
+			"nvim-pack/nvim-spectre",
+			requires = {
+					"nvim-lua/plenary.nvim", -- Lua 开发模块
+			},
+			config = function()
+					require("conf.nvim-spectre")
+			end
 			}
-			]]
 
-			--[[
+
 			-- 包裹修改
 			use {
 				"ur4ltz/surround.nvim",
@@ -170,7 +167,6 @@ packer.startup(
 						require("conf.surround")
 				end
 			}
-			]]
 
         end,
         -- 使用浮动窗口
@@ -192,6 +188,7 @@ packer.startup(
 			require("conf.nvim-notify"),
 			require("conf.todo-comments"),
 			require("conf.vim-smoothie"),
+			require("conf.aerial_nvim"),
 
 			require("conf.switch"),
 			require("conf.spellsitter"),
@@ -211,14 +208,14 @@ packer.startup(
 			require("conf.lsp_signature"),
 			require("conf.nvim-lightbulb"),
 			-- require("conf.nvim-lint"),
-			
+
 			require("conf.copilot"),
 			require("conf.neoformat"),
 			require("conf.lsp-colors"),
 			require("conf.vista"),
 
 
-			
+
 		}
     }
 )

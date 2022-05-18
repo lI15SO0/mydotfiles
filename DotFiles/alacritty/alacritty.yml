@@ -32,3 +32,12 @@ window:
     y: 0
   opacity: 0.85
 
+
+cursor:
+  style:
+    blinking: On
+
+  blink_interval: 500
+
+
+
