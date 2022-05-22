@@ -8,7 +8,7 @@ local switch_words = {
     {"disable", "enable"},
     {"+", "-"},
     {">", "<"},
-    {"=", "!="}
+    {"=", "!="},
 }
 
 -- enable Enable ENABLE
