@@ -43,8 +43,6 @@ packer.startup(
 			-- 彩色括号
 			use {
 				'luochen1990/rainbow',
-				config = function()
-				end
 			}
 
 			-- 底栏
