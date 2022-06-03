@@ -5,6 +5,8 @@ font:
   size: 8.5
 
   normal:
+    family: "HarmonyOS Sans SC"
+    family: "Noto Sans CJK JP"
     family: "FiraCode Nerd Font Mono"
 
   bold:

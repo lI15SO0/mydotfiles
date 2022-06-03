@@ -58,8 +58,8 @@ modules-left = i3 bspwm filesystem
 modules-center = xwindow
 override-redirect = true
 
-scroll-up = bspwm-desknext
-scroll-down = bspwm-deskprev
+scroll-up = bspwm-deskprev
+scroll-down = bspwm-desknexr
 
 cursor-click = pointer
 
@@ -129,9 +129,9 @@ font-3 = "icomoon-extended-ultra:size=10:antialias=false;1"
 font-4 = "Ubuntu Nerd Font:size=10:antialias=false;1"
 
 ;modules-right = backlight alsa memory cpu CPUtemperature wlan eth battery 
-modules-left = backlight alsa memory cpu CPUtemperature battery 
+modules-left = backlight alsa memory cpu CPUtemperature battery wlan eth
 ;modules-center = CPUtemperature
-modules-right = wlan eth 
+modules-right =  
 
 tray-position = right
 tray-padding = 2
