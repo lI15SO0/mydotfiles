@@ -13,6 +13,7 @@ These Dotfile contain follow software's dot file;
 	rime
 	scripts
 	start-up-scripts
+	starship
 	gtk-style (2, 3)
 ```
 
