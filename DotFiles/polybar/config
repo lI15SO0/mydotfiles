@@ -52,7 +52,7 @@ font-0 = San Francisco Display Regular:size=10;1
 font-1 = unifont:fontformat=truetype:size=10:antialias=false;0
 font-2 = "MaterialIcons:size=10:antialias=false;1"
 font-3 = "icomoon-extended-ultra:size=10:antialias=false;1"
-font-4 = "Ubuntu Nerd Font:size=10:antialias=false;1"
+font-4 = "FiraCode Nerd Font:size=10:antialias=false;1"
 
 modules-left = i3 bspwm filesystem
 modules-center = xwindow
@@ -90,7 +90,7 @@ font-0 = San Francisco Display Regular:size=10;1
 font-1 = unifont:fontformat=truetype:size=10:antialias=false;0
 font-2 = "MaterialIcons:size=10:antialias=false;1"
 font-3 = "icomoon-extended-ultra:size=10:antialias=false;1"
-font-4 = "Ubuntu Nerd Font:size=10:antialias=false;1"
+font-4 = "FiraCode Nerd Font:size=10:antialias=false;1"
 
 modules-center = date
 
@@ -126,7 +126,7 @@ font-0 = San Francisco Display Regular:size=10;1
 font-1 = unifont:fontformat=truetype:size=10:antialias=false;0
 font-2 = "MaterialIcons:size=10:antialias=false;1"
 font-3 = "icomoon-extended-ultra:size=10:antialias=false;1"
-font-4 = "Ubuntu Nerd Font:size=10:antialias=false;1"
+font-4 = "FiraCode Nerd Font:size=10:antialias=false;1"
 
 ;modules-right = backlight alsa memory cpu CPUtemperature wlan eth battery 
 modules-left = backlight alsa memory cpu CPUtemperature battery wlan eth
@@ -298,7 +298,7 @@ ramp-used-7-foreground = #ff5555
 
 [module/wlan]
 type = internal/network
-interface = wlan0
+interface = wlp3s0
 interval = 1.0
 
 format-connected = <ramp-signal> <label-connected>
