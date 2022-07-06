@@ -13,10 +13,10 @@ vicmd_symbol = "[/>](bold 13)"
 
 [directory]
 style = "bold 13"
-read_only = " X"
+read_only = "X "
 read_only_style = "bold #FFA500"
 truncation_symbol = "..|"
-format = "[$path]($style)[$read_only]($read_only_style)"
+format = "[$read_only]($read_only_style)[$path]($style)"
 
 [cmd_duration]
 min_time = 0
