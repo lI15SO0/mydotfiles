@@ -155,9 +155,9 @@ packer.startup(
 
 			-- 自动保存
 			use {
-				"Pocco81/AutoSave.nvim",
+				"Pocco81/auto-save.nvim",
 				config = function()
-					require("conf.AutoSave")
+					require("conf.auto-save")
 				end
 			}
 
@@ -165,7 +165,7 @@ packer.startup(
 			use {
 				"ethanholz/nvim-lastplace",
 				config = function()
-			require("conf.nvim-lastplace")
+					require("conf.nvim-lastplace")
 				end
 			}
 
@@ -176,31 +176,13 @@ packer.startup(
 					require("conf.undotree")
 				end
 			}
-
-			-- 浮动终端
+			
 			use {
-				'voldikss/vim-floaterm', -- 浮动终端
-				config = function()
-					require("conf.vim-floaterm")
+				"numToStr/FTerm.nvim",
+				config = function ()
+					require("conf.FTerm")
 				end
 			}
-
-			--[[
-			use {
-				"folke/which-key.nvim",
-				config = function()
-					require("conf.which-key")
-				end
-			}
-
-			-- 自动会话管理
-			use {
-				"rmagatti/auto-session",
-				config = function()
-					require("conf.auto-session")
-				end
-			}
-			]]
 
 			-- 单词跳转
 			use {
@@ -271,15 +253,6 @@ packer.startup(
 				end
 			}
 
-			--[[
-			-- 外置 lint
-			use {
-				"mfussenegger/nvim-lint",
-				config = function()
-				end
-			}
-			]]
-
 			-- 人工智能代码补全
 			use {
 				"github/copilot.vim",
@@ -333,7 +306,7 @@ packer.startup(
 						{"f3fora/cmp-spell"}, -- 拼写建议
 						{"rafamadriz/friendly-snippets"}, -- 提供多种语言的代码片段
 						{"lukas-reineke/cmp-under-comparator"}, -- 让补全结果的排序更加智能
-						{"tzachar/cmp-tabnine", run = "./install.sh"} -- tabnine 源,提供基于 AI 的智能补全
+						-- {"tzachar/cmp-tabnine", run = "./install.sh"} -- tabnine 源,提供基于 AI 的智能补全
 				},
 				config = function()
 						require("conf.nvim-cmp")
