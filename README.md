@@ -8,7 +8,7 @@ These Dotfile contain follow software's dot file;
 ```
 	neovim
 	alacritty
-	bspwm with sxhkd
+	dwm
 	picom
 	rime
 	scripts
@@ -31,3 +31,25 @@ NOTE: If something insatll failed. Need to re-start neovim and execute ":PackerS
 
 4. enjoy this neovim setting
 
+--
+
+## About dwm files
+
+-- 
+
+Source code VERSION: 6.3
+
+Dwm source code use the [ original LICENSE ](https://git.suckless.org/dwm/plain/LICENSE).
+
+This branch's dwm source code was patched these patch
+	alwaysontop
+	actualfullscreen
+	autostart
+	fullgaps
+	fullscreen
+
+Those patchs can download from [dwm/patches]( dwm.suckless.org/dwm/patches )
+
+I will add these patched at future:
+	IPC
+	anybars
