@@ -47,9 +47,18 @@ This branch's dwm source code was patched these patch
 	autostart
 	fullgaps
 	fullscreen
+	anybar
+	[dwm-ipc](https://github.com/mihirlad55/dwm-ipc)
 
 Those patchs can download from [dwm/patches]( dwm.suckless.org/dwm/patches )
 
 I will add these patched at future:
-	IPC
-	anybars
+	[None]
+
+--
+
+## About polybar
+
+--
+
+This polybar's config file is base on ["mihirlad55/polybar-dwm-module"](https://github.com/mihirlad55/polybar-dwm-module)
