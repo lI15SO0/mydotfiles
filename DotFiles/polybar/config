@@ -231,7 +231,7 @@ secondary-layout-symbol = [M]
 ; Title of currently focused window
 ; Available tokens:
 ;   %title%
-label-title = %title%
+label-title = 「 %title% 」
 label-title-padding = 0
 label-title-forefround = ${colors.foreground}
 label-title-maxlen = 200
