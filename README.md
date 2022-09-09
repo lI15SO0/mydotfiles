@@ -48,6 +48,7 @@ This branch's dwm source code was patched these patch
 	fullgaps
 	fullscreen
 	anybar
+	resizecorners
 	[dwm-ipc](https://github.com/mihirlad55/dwm-ipc)
 
 Those patchs can download from [dwm/patches]( dwm.suckless.org/dwm/patches )
