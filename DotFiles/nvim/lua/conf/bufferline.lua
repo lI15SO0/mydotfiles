@@ -8,7 +8,7 @@ require("bufferline").setup(
             -- 使用内置 LSP 进行诊断
             diagnostics = "nvim_lsp",
             -- 不建议更改图标
-            indicator_icon = "▎",
+            -- indicator_icon = "▎",
             buffer_close_icon = "",
             modified_icon = "●",
             close_icon = "",
@@ -16,7 +16,7 @@ require("bufferline").setup(
             right_trunc_marker = "",
             -- 分割符样式："slant" | "thick" | "thin"
             -- 如果是透明背景，不推荐使用 slant
-            separator_style = "thin",
+            separator_style = "slant",
             -- 左侧让出 nvim-tree 的位置
             offsets = {
                 {

@@ -26,6 +26,7 @@ local servers = {
 	clangd = require("lsp.clangd"),
 	texlab = require("lsp.texlab"),
 	taplo = require("lsp.taplo"),
+	cmake= require("lsp.cmake"),
 }
 
 -- 这里是 LSP 服务启动后的按键加载
