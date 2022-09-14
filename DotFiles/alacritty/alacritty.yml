@@ -1,12 +1,14 @@
 dynamic_title: true
 decorations: 'full'
 
+window:
+  opacity: 0.8
+
 font:
   size: 8.5
 
   normal:
     family: "HarmonyOS Sans SC"
-    family: "Noto Sans CJK JP"
     family: "FiraCode Nerd Font Mono"
 
   bold:
@@ -28,18 +30,8 @@ font:
 
 draw_bold_text_with_bright_colors: true
 
-window:
-  padding:
-    x: 0
-    y: 0
-  opacity: 0.85
-
-
 cursor:
   style:
-    blinking: On
+    blinking: Off
 
   blink_interval: 500
-
-
-

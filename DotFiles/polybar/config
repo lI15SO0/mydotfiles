@@ -118,7 +118,7 @@ padding-right = 0
 module-margin-left = 1
 module-margin-right = 1
 
-font-0 = "HarmonyOS Sans SC:size=9:antialias=false;2"
+font-0 = "HarmonyOS Sans SC:size=9:antialias=true;2"
 font-1 = "FiraCode Nerd Font Mono:size=16:antialias=false;2"
 
 modules-left = filesystem backlight alsa memory cpu CPUtemperature battery wlan eth
