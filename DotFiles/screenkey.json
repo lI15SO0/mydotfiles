@@ -21,9 +21,9 @@
     "vis_space": true,
     "geometry": [
         0,
-        1024,
+        1032,
         1920,
-        56
+        48
     ],
     "screen": 0,
     "start_disabled": false,
