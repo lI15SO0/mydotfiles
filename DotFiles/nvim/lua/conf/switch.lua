@@ -9,6 +9,9 @@ local switch_words = {
     {"+", "-"},
     {">", "<"},
     {"=", "!="},
+    {"left", "right"},
+    {"up", "down"},
+    {"start", "stop"},
 }
 
 -- enable Enable ENABLE

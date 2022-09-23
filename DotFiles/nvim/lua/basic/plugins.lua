@@ -177,6 +177,7 @@ packer.startup(
 				end
 			}
 			
+			-- Float Term
 			use {
 				"numToStr/FTerm.nvim",
 				config = function ()
