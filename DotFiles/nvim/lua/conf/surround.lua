@@ -2,7 +2,7 @@
 
 require("surround").setup(
     {
-        mappings_style = "sandwich"
+        mappings_style = "surround"
     }
 )
 
