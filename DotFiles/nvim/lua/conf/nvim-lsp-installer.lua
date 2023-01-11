@@ -4,7 +4,7 @@ local lsp_installer_servers = require("nvim-lsp-installer.servers")
 
 -- 使用 cmp_nvim_lsp 代替内置 omnifunc，获得更强的补全体验
 local capabilities = vim.lsp.protocol.make_client_capabilities()
-capabilities = require("cmp_nvim_lsp").update_capabilities(capabilities)
+capabilities = require("cmp_nvim_lsp").default_capabilities(capabilities)
 
 -- WARN: 手动书写 LSP 配置文件
 -- 名称：https://github.com/williamboman/nvim-lsp-installer#available-lsps
@@ -38,13 +38,12 @@ local function attach(_, bufnr)
     -- 工作区诊断（代替内置 LSP 的窗口，telescope 插件让工作区诊断更方便）
     vim.keybinds.bmap(bufnr, "n", "go", "<cmd>Telescope diagnostics theme=dropdown<CR>", vim.keybinds.opts)
     -- 显示代码可用操作（代替内置 LSP 的窗口，telescope 插件让代码行为更方便）
-    vim.keybinds.bmap(bufnr, "n", "<leader>ca", "<cmd>Telescope lsp_code_actions theme=dropdown<CR>", vim.keybinds.opts)
-    -- 变量重命名（代替内置 LSP 的窗口，Lspsaga 让变量重命名更美观）
+    vim.keybinds.bmap(bufnr, "n", "<leader>ca", "<cmd>Lspsaga code_action<CR>", vim.keybinds.opts)
+    -- 变量重命名（代替内置 LSP 的窗口，Lspsaga 让变量重命名更美观）code
     vim.keybinds.bmap(bufnr, "n", "<leader>cn", "<cmd>Lspsaga rename<CR>", vim.keybinds.opts)
     -- 查看帮助信息（代替内置 LSP 的窗口，Lspsaga 让查看帮助信息更美观）
     vim.keybinds.bmap(bufnr, "n", "gh", "<cmd>Lspsaga hover_doc<CR>", vim.keybinds.opts)
     -- 跳转到上一个问题（代替内置 LSP 的窗口，Lspsaga 让跳转问题更美观）
-    vim.keybinds.bmap(bufnr, "n", "g[", "<cmd>Lspsaga diagnostic_jump_prev<CR>", vim.keybinds.opts)
     -- 跳转到下一个问题（代替内置 LSP 的窗口，Lspsaga 让跳转问题更美观）
     vim.keybinds.bmap(bufnr, "n", "g]", "<cmd>Lspsaga diagnostic_jump_next<CR>", vim.keybinds.opts)
     -- 悬浮窗口上翻页，由 Lspsaga 提供

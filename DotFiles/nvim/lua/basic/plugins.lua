@@ -12,9 +12,9 @@ packer.startup(
 
 			-- nvim-tree
 			use {
-				"kyazdani42/nvim-tree.lua",
+				"nvim-tree/nvim-tree.lua",
 				requires = {
-						"kyazdani42/nvim-web-devicons"
+						"nvim-tree/nvim-web-devicons"
 				},
 				config = function()
 					require("conf.nvim-tree")
@@ -254,13 +254,14 @@ packer.startup(
 				end
 			}
 
-			-- 人工智能代码补全
+			--[[ 人工智能代码补全
 			use {
 				"github/copilot.vim",
 				config = function()
 					require("conf.copilot")
 				end
 			}
+			]]
 
 			-- 代码格式化
 			use {

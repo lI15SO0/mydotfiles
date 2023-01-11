@@ -5,7 +5,7 @@
 vim.o.encoding = "utf-8"
 -- 自动重载
 vim.o.autoread = true
--- 使用标题
+-- 使用标题in
 vim.o.title = true
 -- 是否开启备份文件
 vim.o.backup = false
@@ -62,7 +62,7 @@ vim.o.showmatch = true
 -- 是否开启代码折叠
 vim.o.foldenable = true
 -- 指定代码折叠的策略是按照缩进进行的
-vim.o.foldmethod = "indent"
+vim.o.foldmethod = "expr"
 -- 指定代码折叠的最高层级为 100
 vim.o.foldlevel = 100
 -- 指定 tab 的长度

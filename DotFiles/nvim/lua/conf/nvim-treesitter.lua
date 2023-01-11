@@ -4,9 +4,9 @@
 require("nvim-treesitter.configs").setup(
     {
         -- 安装的高亮支持来源
-        ensure_installed = {"rust", "python", "c", "toml", "latex"}, 
+        ensure_installed = {"rust", "python", "c", "toml", "latex"},
         -- 同步下载高亮支持
-        sync_install = true, 
+        sync_install = true,
         -- 高亮相关
         highlight = {
             -- 启用高亮支持
@@ -30,7 +30,7 @@ require("nvim-treesitter.configs").setup(
         },
         -- 缩进，关闭
         indent = {
-            enable = false
+            enable = true
         },
         -- 彩虹括号，由 nvim-ts-rainbow 插件提供
         rainbow = {
@@ -50,3 +50,4 @@ require("nvim-treesitter.configs").setup(
 vim.wo.foldmethod = "expr"
 vim.wo.foldexpr = "nvim_treesitter#foldexpr()"
 vim.wo.foldlevel = 99
+
