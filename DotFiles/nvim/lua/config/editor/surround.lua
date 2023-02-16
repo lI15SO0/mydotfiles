@@ -1,0 +1,27 @@
+-- https://github.com/ur4ltz/surround.nvim
+
+local M = {}
+function M.before()
+end
+
+function M.load()
+require("surround").setup(
+    {
+        mappings_style = "surround"
+    }
+)
+end
+
+function M.after()
+end
+
+return M
+
+-- cs 字符 字符：修改包裹
+-- ds 字符     ：删除包裹
+-- ys 范围 字符：增加包裹
+--
+-- ( 1, 2, 3 )
+-- "a", "b", "c"
+-- 789
+

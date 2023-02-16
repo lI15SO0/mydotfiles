@@ -1,9 +1,7 @@
--- 加载配置项
-require("basic.settings")
-require("basic.keybinds")
-require("basic.config")
-require("basic.plugins")
+-- Entry of nvim lua profile
+require("core.setting")
+require("core.options")
+require("core.mapping")
+require("core.plugins")
 
--- FIX LSP服务没有搭建起来
--- FIX 代码提示也没有完成
--- FIX 第6页
+require("core.after")
