@@ -59,7 +59,7 @@ plugins.editor = {
 	{"lewis6991/spellsitter.nvim"},
 	{"ethanholz/nvim-lastplace"},
 	{"mbbill/undotree"},
-	{'phaazon/hop.nvim', {branch = "v2"}}, -- 快速跳转
+	{'phaazon/hop.nvim', branch = "v2"}, -- 快速跳转
 	-- {"sbdchd/neoformat"}, -- 代码格式代
 	{"numToStr/Comment.nvim"}, -- 快速注释
 	{"JoosepAlviste/nvim-ts-context-commentstring"},

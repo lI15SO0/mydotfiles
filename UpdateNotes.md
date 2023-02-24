@@ -2,6 +2,16 @@
 
 ---
 
+##
+
+---
+
+[FIX] nvim/lua/core/plugins.lua:62  Deleted a surround about branch, now hop can load normally
+
+[ADD] nvim/snippets/\*  Add Some snippets
+
+---
+
 ## 2023-02-16 17:31
 
 ---
