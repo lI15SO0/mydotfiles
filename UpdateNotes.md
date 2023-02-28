@@ -2,9 +2,11 @@
 
 ---
 
-##
+## 2023-02-28 17:52
 
 ---
+
+[UPDATE] Dwm: merge patch to 2023-02-17 05:05
 
 [FIX] nvim/lua/core/plugins.lua:62  Deleted a surround about branch, now hop can load normally
 
