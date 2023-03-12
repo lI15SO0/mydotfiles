@@ -1,5 +1,20 @@
 # UpdateLog
 
+## 2023-03-13
+
+---
+
+[CHANGE] nvim plugins "surround" mapping-style change to sandwich
+[CHANGE] nvim lsp "cmake-language-server" change to "neocmakelsp" and add "cmakelang" linter and formatter
+
+---
+
+## 2023-03-04 23:13
+
+---
+
+[FIX] dwm hotkey cmd fixed, add NULL
+
 ---
 
 ## 2023-02-28 17:52

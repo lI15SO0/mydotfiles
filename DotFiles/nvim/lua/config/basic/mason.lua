@@ -17,7 +17,7 @@ M.installer_resources = {
         "tailwindcss-language-server",
 		"clangd",
 		"taplo",
-		"cmake-language-server",
+		"neocmakelsp",
 		"rust-analyzer",
 		"pyright",
     },
@@ -27,6 +27,7 @@ M.installer_resources = {
     },
     linter = {
         "pylint",
+		"cmakelang",
     },
     formatter = {
 		"clang-format",
@@ -35,6 +36,7 @@ M.installer_resources = {
         "prettier",
         "stylua",
 		"rustfmt",
+		"cmakelang",
     },
 }
 

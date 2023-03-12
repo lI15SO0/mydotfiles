@@ -7,7 +7,7 @@ end
 function M.load()
 require("surround").setup(
     {
-        mappings_style = "surround"
+        mappings_style = "sandwich"
     }
 )
 end
