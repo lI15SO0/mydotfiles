@@ -1,0 +1,24 @@
+{
+	"Plugins": {
+		"prefix": "plugins",
+		"body": [
+			"local M = {",
+			"\trequires = {",
+			"\t\t$1",
+			"\t}",
+			"}",
+			"", 
+			"function M.before()",
+			"end",
+			"",
+			"function M.load()",
+			"end",
+			"",
+			"function M.after()",
+			"end",
+			"",
+			"return M"
+		],
+		"description": "Plugins that not require anything's template"
+	}
+}

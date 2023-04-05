@@ -15,8 +15,8 @@ function M.before()
 	let g:vista#renderer#enable_icon = 1
 	let g:vista#renderer#icons = {
 	\   "function": "\uf794",
-	\   "Array": "[]",
-	\	"Boolean": "T/F",
+	\   "Array": 'L',
+	\	"Boolean": "TF",
 	\	"String": "\"\"",
 	\   "variable": "\uf71b",
 	\  }
@@ -30,13 +30,11 @@ function M.load()
 		key = '<leader>2',
 		fn = "<cmd>Vista!!<CR>",
 		options = {silent = true},
-		description = 'Show Vista',
+		description = 'Toggle Vista',
 	})
-	
 end
 
 function M.after()
-	
 end
 
 return M

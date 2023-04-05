@@ -1,5 +1,18 @@
 # UpdateLog
 
+## 2023-04-05
+
+---
+
+nvim: 
+	[ADD][PLUGINS]: li15SO0/virtuality.nvim show type after variable (this reposity was fork from [ 27justin/virtuality.nvim ](https://github.com/27justin/virtuality.nvim))
+	[ADD][PLUGINS]: ray-x/lsp_signature.nvim
+	[ADD][PLUGINS]: toppair/peek.nvim
+	[FIX]: change prompt of vista, new it will not print err.
+	
+
+---
+
 ## 2023-03-13
 
 ---

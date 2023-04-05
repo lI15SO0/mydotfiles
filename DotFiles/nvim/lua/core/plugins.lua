@@ -26,6 +26,9 @@ plugins.lsp = {
 	{"liuchengxu/vista.vim", after = {"mason.nvim"} }, -- tags
 	{"glepnir/lspsaga.nvim", branch = 'main'},
 	{"j-hui/fidget.nvim", after = { "nvim-lspconfig" }}, -- 显示lsp进度
+	-- {"mfussenegger/nvim-lint", after = {"mason.nvim"}},
+	-- {"mhartington/formatter.nvim", after = {"mason.nvim"}},
+	{ "li15SO0/virtuality.nvim" },
 }
 
 plugins.complete = {
@@ -50,7 +53,7 @@ plugins.dap = {
 }
 
 plugins.editor = {
-	-- {"ray-x/lsp_signature.nvim", after = {"mason.nvim"}},
+	{"ray-x/lsp_signature.nvim"},
 	{"p00f/nvim-ts-rainbow"},
 	{'psliwka/vim-smoothie'},
 	{"kevinhwang91/nvim-hlslens"},
@@ -67,10 +70,10 @@ plugins.editor = {
 	{"RRethy/vim-illuminate", event = { "BufRead", "BufNewFile" }}, -- 高亮相同字符串
 }
 
---[[
 plugins.language = {
+	{"toppair/peek.nvim"},
+	-- {"iamcco/markdown-preview.nvim"},
 }
-]]
 
 plugins.tools = {
 	{"Pocco81/auto-save.nvim"},

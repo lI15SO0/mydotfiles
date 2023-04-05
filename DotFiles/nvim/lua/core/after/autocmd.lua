@@ -28,7 +28,7 @@ end
 local my_augroup = vim.api.nvim_create_augroup("my_augroup", { clear = true })
 
 vim.api.nvim_create_autocmd("FileType", {
-  pattern = { "python", "lua", "c", "rs", "cpp", "rust", "go" },
+  pattern = { "python", "lua", "c", "rs", "cpp", "rust", "go", "rs" },
   command = "setlocal nospell",
   group = my_augroup,
 })

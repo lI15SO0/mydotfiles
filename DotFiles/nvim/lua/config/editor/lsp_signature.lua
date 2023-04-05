@@ -14,16 +14,16 @@ function M.before()
         -- 边框样式
         handler_opts = {
             -- double、rounded、single、shadow、none
-            border = options.border
+            border = options.none
         },
         -- 自动触发
         floating_window = true,
         -- 绑定按键
-        -- toggle_key = "<C-j>",
+        toggle_key = "<C-j>",
         -- 虚拟提示关闭
         hint_enable = true,
         -- 正在输入的参数将如何突出显示
-        hi_parameter = "LspSignatureActiveParameter"
+        hi_parameter = "LspSignatureActiveParameter",
 	}
 end
 
