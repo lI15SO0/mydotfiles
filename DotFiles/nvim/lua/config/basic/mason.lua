@@ -22,21 +22,21 @@ M.installer_resources = {
 		"pyright",
     },
     dap = {
-        "debugpy",
-		"codelldb",
+        -- "debugpy",
+		-- "codelldb",
     },
     linter = {
-        "pylint",
-		"cmakelang",
+        -- "pylint",
+		-- "cmakelang",
     },
     formatter = {
-		"clang-format",
-        "shfmt",
-        "autopep8",
-        "prettier",
-        "stylua",
-		"rustfmt",
-		"cmakelang",
+		-- "clang-format",
+        -- "shfmt",
+        -- "autopep8",
+        -- "prettier",
+        -- "stylua",
+		-- "rustfmt",
+		-- "cmakelang",
     },
 }
 
@@ -60,6 +60,8 @@ function M.load()
 end
 
 function M.after()
+
+
     local installed_resources = {}
 
     for _, resource_tbl in pairs(M.installer_resources) do

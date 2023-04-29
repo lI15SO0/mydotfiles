@@ -1,5 +1,14 @@
 # UpdateLog
 
+## 2023-04-30
+
+---
+
+nvim:
+    [CHANGE] mason auto install only install lsp server.
+
+---
+
 ## 2023-04-28
 
 ---
