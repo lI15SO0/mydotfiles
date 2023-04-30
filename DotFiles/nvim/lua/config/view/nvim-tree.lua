@@ -20,7 +20,6 @@ function M.load()
         hijack_netrw = false,
         hijack_cursor = true,
         update_cwd = true,
-        ignore_ft_on_setup = { "dashboard" },
         reload_on_bufenter = true,
         notify = {
             threshold = vim.log.levels.WARN,

@@ -44,6 +44,7 @@ function M.before() end
 
 function M.load()
     M.mason.setup({
+		-- PATH = "append",
         max_concurrent_installers = 20,
         ui = {
             border = options.float_border and "double" or "none",

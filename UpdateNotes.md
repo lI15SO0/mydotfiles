@@ -6,6 +6,7 @@
 
 nvim:
     [CHANGE] mason auto install only install lsp server.
+    [CHANGE] nvim-tree update setup
 
 ---
 
