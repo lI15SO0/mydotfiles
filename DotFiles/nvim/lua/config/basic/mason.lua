@@ -12,14 +12,14 @@ local M = {
 
 M.installer_resources = {
     lsp = {
-        "lua-language-server",
-        "bash-language-server",
-        "tailwindcss-language-server",
-		"clangd",
-		"taplo",
-		"neocmakelsp",
-		"rust-analyzer",
-		"pyright",
+  --       "lua-language-server",
+  --       "bash-language-server",
+  --       "tailwindcss-language-server",
+		-- "clangd",
+		-- "taplo",
+		-- "neocmakelsp",
+		-- "rust-analyzer",
+		-- "pyright",
     },
     dap = {
         -- "debugpy",

@@ -1,5 +1,14 @@
 # UpdateLog
 
+## 2023-06-06
+
+---
+
+nvim: 
+    [CHANGE] Cancle all default install lsp.
+
+---
+
 ## 2023-04-30
 
 ---
