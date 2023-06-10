@@ -1,10 +1,25 @@
 # UpdateLog
 
+## 2023-06-10
+
+---
+
+nvim:
+
+	[ADD] setting.lua new line 58 add fold expr. Using treesitter to support fold.
+
+	[CHANGE] enable treesitter's incremental_selection function.
+
+
+---
+
+
 ## 2023-06-06
 
 ---
 
-nvim: 
+nvim:
+
     [CHANGE] Cancle all default install lsp.
 
 ---
@@ -14,6 +29,7 @@ nvim:
 ---
 
 nvim:
+
     [CHANGE] mason auto install only install lsp server.
     [CHANGE] nvim-tree update setup
 
@@ -23,7 +39,9 @@ nvim:
 
 ---
 
-[UPDATE] dwm: merge patch to 2023-04-09 10:37
+dwm:
+
+	[UPDATE] merge patch to 2023-04-09 10:37
 
 ---
 
@@ -31,12 +49,13 @@ nvim:
 
 ---
 
-nvim: 
+nvim:
+
 	[ADD][PLUGINS]: li15SO0/virtuality.nvim show type after variable (this reposity was fork from [ 27justin/virtuality.nvim ](https://github.com/27justin/virtuality.nvim))
 	[ADD][PLUGINS]: ray-x/lsp_signature.nvim
 	[ADD][PLUGINS]: toppair/peek.nvim
 	[FIX]: change prompt of vista, new it will not print err.
-	
+
 
 ---
 
@@ -44,16 +63,19 @@ nvim:
 
 ---
 
-[CHANGE] nvim plugins "surround" mapping-style change to sandwich
-[CHANGE] nvim lsp "cmake-language-server" change to "neocmakelsp" and add "cmakelang" linter and formatter
+nvim:
+
+	[CHANGE] nvim plugins "surround" mapping-style change to sandwich
+	[CHANGE] nvim lsp "cmake-language-server" change to "neocmakelsp" and add "cmakelang" linter and formatter
 
 ---
 
 ## 2023-03-04 23:13
 
 ---
+dwm:
 
-[FIX] dwm hotkey cmd fixed, add NULL
+	[FIX] hotkey cmd fixed, add NULL
 
 ---
 
@@ -61,11 +83,14 @@ nvim:
 
 ---
 
-[UPDATE] Dwm: merge patch to 2023-02-17 05:05
+dwm:
 
-[FIX] nvim/lua/core/plugins.lua:62  Deleted a surround about branch, now hop can load normally
+	[UPDATE] merge patch to 2023-02-17 05:05
 
-[ADD] nvim/snippets/\*  Add Some snippets
+nvim:
+
+	[FIX] nvim/lua/core/plugins.lua:62  Deleted a surround about branch, now hop can load normally
+	[ADD] nvim/snippets/*  Add Some snippets
 
 ---
 
@@ -73,8 +98,14 @@ nvim:
 
 ---
 
-[UPDATE] Dwm: merge patch to 2023-01-28 11:53
+dwm:
+
+	[UPDATE] merge patch to 2023-01-28 11:53
+
+nvim:
 
 [REFACTOR] nvim: Change all dotfiles. These dotfiles reference from [askfiy's nvim dotfiles](https://github.com/askfiy/nvim/tree/6918a00712085a8134151f92cca4ea656d059e2e)
 
-[ADD] Add this log
+UpdateNotes.md:
+
+	[ADD] Add this log

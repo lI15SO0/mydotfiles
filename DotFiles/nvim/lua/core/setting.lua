@@ -55,6 +55,7 @@ settings.o = {
 	-- 代码折叠
 	foldenable = true,
 	foldmethod = "expr",
+	foldexpr = 'nvim_treesitter#foldexpr()',
 	foldlevel = 100,
 	-- 指定 tab 的长度
 	tabstop = 4,
