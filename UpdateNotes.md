@@ -1,5 +1,15 @@
 # UpdateLog
 
+## 2023-06-23
+
+---
+
+nvim:
+
+    [CHANGE] Cancle all default install treesitter parser.
+
+---
+
 ## 2023-06-10
 
 ---

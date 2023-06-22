@@ -27,7 +27,8 @@ function M.load()
     M.nvim_treesitter_install.prefer_git = true
 
     M.nvim_treesitter_configs.setup({
-        ensure_installed = {'rust', 'python', 'c', 'go', 'lua'},
+        -- ensure_installed = {'rust', 'python', 'c', 'go', 'lua'},
+        ensure_installed = {},
         ignore_install = nil,
         highlight = {
             enable = true,
