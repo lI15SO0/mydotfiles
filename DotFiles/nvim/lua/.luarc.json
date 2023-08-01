@@ -1,0 +1,13 @@
+{
+    "workspace.library": [
+        "/Foxie/.local/share/nvim/lazy/neodev.nvim/types/stable",
+        "/usr/share/nvim/runtime/lua",
+        "/Foxie/.local/share/nvim/lazy/nvim-lspconfig/lua",
+        "/Foxie/.config/nvim/lua",
+        "${3rd}/luv/library",
+        "${3rd}/luv/library",
+        "${3rd}/luv/library",
+        "${3rd}/luv/library"
+    ],
+    "workspace.checkThirdParty": false
+}

@@ -8,7 +8,7 @@ options.transparent = false
 options.float_border = false
 options.show_winbar = true
 -- double、rounded、single、shadow、none
-options.border = "rounded"
+options.border = "shadow"
 
 options.download_source = "https://github.com/"
 
@@ -38,5 +38,13 @@ options.color.Hint = options.color.schema[1]
 options.color.OK = options.color.Hint
 options.color.Note = options.color.schema[5]
 options.color.Hack = options.color.schema[6]
+
+options.snip = {}
+--	avaliable snip engine:
+--		1. vsnip
+--		2. snippy
+--		3. luasnip
+options.snip.engine = "vsnip"
+options.snip.snippath = api.path.join(vim.fn.stdpath("config"), "snippets")
 
 return options

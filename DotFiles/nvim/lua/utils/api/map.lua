@@ -8,10 +8,10 @@ function map.register(key)
 	else
 		key.options.force = nil
 		if type(key.mode) == 'string' then
-			vim.api.nvim_set_keymap(key.mode, key.key, key.fn, key.options)
+			vim.api.nvim_buf_set_keymap(key.mode, key.key, key.fn, key.options)
 		else
 			for _, mode in ipairs(key.mode)  do
-				vim.api.nvim_set_keymap(mode, key.key, key.fn, key.options)
+				vim.api.nvim_buf_set_keymap(mode, key.key, key.fn, key.options)
 			end
 		end
 	end

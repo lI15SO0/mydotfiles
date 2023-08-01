@@ -1,12 +1,25 @@
 # UpdateLog
 
-## 2023-06-23
+## 2023-08-01
 
 ---
 
-nvim:
+nvim: 
+    [Re] rewrite all nvim dotfiles, now plugins manager using Lazy, These can make nvim bootup faster.
+    [ TODO ] now vsnip will throws a error "E474 Attemp to decode a blank string".
 
-    [CHANGE] Cancle all default install treesitter parser.
+---
+
+## 2023-07-31
+
+---
+
+polybar:
+    [CHANGE] module/cpu interval fron 0.5 change to 1.0
+    [CHANGE] module/wlan delete %local_ip%
+    [CHANGE] module/eth delete %local_ip%
+    [CHANGE] disabled module/CPUtempature from right panel
+    [CHANGE] bootup scripts log warn to /tmp/polybar.log
 
 ---
 

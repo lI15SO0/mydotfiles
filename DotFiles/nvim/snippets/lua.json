@@ -1,23 +1,13 @@
 {
-	"Plugins": {
-		"prefix": "plugins",
+	"Neovim Module init": {
+		"prefix": "nmi",
 		"body": [
-			"local M = {",
-			"\trequires = {",
-			"\t\t$1",
-			"\t}",
+			"local api = require(\"utils.api\")\n",
+			"local path=\"$1\"",
+			"local plugins = {",
+			"$0",
 			"}",
-			"", 
-			"function M.before()",
-			"end",
-			"",
-			"function M.load()",
-			"end",
-			"",
-			"function M.after()",
-			"end",
-			"",
-			"return M"
+			"return api.plugin.construct(path, plugins)"
 		],
 		"description": "Plugins that not require anything's template"
 	}

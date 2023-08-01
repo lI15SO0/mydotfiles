@@ -17,13 +17,11 @@ settings.o = {
 	timeoutlen = 500,
 	hidden = true,
 	-- 鼠标支持
-	--mouse = 'a',
+	mouse = 'a',
 	-- 是否启用系统剪切板
 	clipboard = "unnamedplus",
 	-- 是否开启命令行补全
 	wildmenu = true,
-	-- 是否在搜索时忽略大小写
-	ignorecase = true,
 	-- 是否开启在搜索时如果有大写字母，则关闭忽略大小写的选项
 	smartcase = true,
 	-- 拼写检查
@@ -63,6 +61,9 @@ settings.o = {
 	shiftwidth=4,
 	smarttab = true,
 	shiftround = true,
+	wrap = false,
+	exrc = true,
+	showmode = false,
 }
 
 settings.bo = {

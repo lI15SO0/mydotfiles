@@ -1,0 +1,31 @@
+polybar|notice:  Parsing config file: /Foxie/.config/polybar/config
+polybar|notice:  Parsing config file: /Foxie/.config/polybar/config
+polybar|notice:  Parsing config file: /Foxie/.config/polybar/config
+polybar|warn:  No monitor specified, using "eDP-1-1"
+polybar|warn:  No monitor specified, using "eDP-1-1"
+polybar|warn:  No monitor specified, using "eDP-1-1"
+polybar|notice:  Loaded font "FiraCode Nerd Font Mono:size=10:antialias=true" (name=FiraCode Nerd Font Mono, offset=2, file=/usr/share/fonts/NerdFonts/FiraCode/Fira Code Regular Nerd Font Complete Mono.otf)
+polybar|notice:  Loaded font "FiraCode Nerd Font Mono:size=9:antialias=true" (name=FiraCode Nerd Font Mono, offset=2, file=/usr/share/fonts/NerdFonts/FiraCode/Fira Code Regular Nerd Font Complete Mono.otf)
+polybar|notice:  Loaded font "HarmonyOS Sans SC:size=9:antialias=true" (name=HarmonyOS Sans SC, offset=2, file=/usr/share/fonts/HarmonyOS Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Regular.ttf)
+polybar|notice:  Loaded font "HarmonyOS Sans SC:size=9:antialias=true" (name=HarmonyOS Sans SC, offset=2, file=/usr/share/fonts/HarmonyOS Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Regular.ttf)
+polybar|notice:  Loaded font "FiraCode Nerd Font Mono:size=16:antialias=false" (name=FiraCode Nerd Font Mono, offset=2, file=/usr/share/fonts/NerdFonts/FiraCode/Fira Code Regular Nerd Font Complete Mono.otf)
+polybar|error: Invalid _XEMBED_INFO for window 0x18000ee
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /Foxie/.config/polybar/config
+polybar|notice:  Parsing config file: /Foxie/.config/polybar/config
+polybar|notice:  Parsing config file: /Foxie/.config/polybar/config
+polybar|warn:  No monitor specified, using "eDP-1-1"
+polybar|warn:  No monitor specified, using "eDP-1-1"
+polybar|warn:  No monitor specified, using "eDP-1-1"
+polybar|notice:  Loaded font "FiraCode Nerd Font Mono:size=10:antialias=true" (name=FiraCode Nerd Font Mono, offset=2, file=/usr/share/fonts/NerdFonts/FiraCode/Fira Code Regular Nerd Font Complete Mono.otf)
+polybar|notice:  Loaded font "FiraCode Nerd Font Mono:size=9:antialias=true" (name=FiraCode Nerd Font Mono, offset=2, file=/usr/share/fonts/NerdFonts/FiraCode/Fira Code Regular Nerd Font Complete Mono.otf)
+polybar|notice:  Loaded font "HarmonyOS Sans SC:size=9:antialias=true" (name=HarmonyOS Sans SC, offset=2, file=/usr/share/fonts/HarmonyOS Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Regular.ttf)
+polybar|notice:  Loaded font "HarmonyOS Sans SC:size=9:antialias=true" (name=HarmonyOS Sans SC, offset=2, file=/usr/share/fonts/HarmonyOS Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Regular.ttf)
+polybar|notice:  Loaded font "FiraCode Nerd Font Mono:size=16:antialias=false" (name=FiraCode Nerd Font Mono, offset=2, file=/usr/share/fonts/NerdFonts/FiraCode/Fira Code Regular Nerd Font Complete Mono.otf)
+polybar|error: Invalid _XEMBED_INFO for window 0x1800102
+polybar|error: module/dwm: Disconnected from socket: [dwmipcpp] Disconnected event socket: Cannot read/write
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Termination signal received, shutting down...

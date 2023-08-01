@@ -153,7 +153,7 @@ api.map.bulk_regist({
 	{
 		mode = {'n', 'i'},
 		key = '<C-c>',
-		fn = '<cmd>bp | bd #<CR>',
+		fn = '<cmd>bdelete<CR>',
 		options = {silent = true},
 		description = 'close this tab'
 	},
