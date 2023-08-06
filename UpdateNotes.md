@@ -1,5 +1,13 @@
 # UpdateLog
 
+## 2023-08-06
+---
+
+nvim:
+    [CHANGE] neotree new window use "rounded" border instade "options.border".
+
+---
+
 ## 2023-08-01
 
 ---

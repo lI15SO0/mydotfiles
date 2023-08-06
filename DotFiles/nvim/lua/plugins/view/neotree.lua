@@ -30,7 +30,7 @@ return {
 
 		require("neo-tree").setup({
 		close_if_last_window = true, -- Close Neo-tree if it is the last window left in the tab
-		popup_border_style = options.border,
+		popup_border_style = "rounded",
 		enable_git_status = true,
 		enable_diagnostics = true,
 		enable_normal_mode_for_inputs = false, -- Enable normal mode for input dialogs.
