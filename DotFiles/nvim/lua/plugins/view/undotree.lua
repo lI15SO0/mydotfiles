@@ -1,5 +1,5 @@
 -- https://github.com/mbbill/undotree
-local api = require("utils.api")
+local api = require("api")
 local options = require("core.options")
 
 return {

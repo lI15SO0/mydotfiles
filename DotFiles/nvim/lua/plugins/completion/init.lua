@@ -1,5 +1,5 @@
 
-local api = require("utils.api")
+local api = require("api")
 
 local path="plugins.completion"
 local plugins = {

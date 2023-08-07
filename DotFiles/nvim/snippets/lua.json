@@ -2,7 +2,7 @@
 	"Neovim Module init": {
 		"prefix": "nmi",
 		"body": [
-			"local api = require(\"utils.api\")\n",
+			"local api = require(\"api\")\n",
 			"local path=\"$1\"",
 			"local plugins = {",
 			"$0",

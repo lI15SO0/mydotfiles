@@ -1,4 +1,4 @@
-local api = require("utils.api")
+local api = require("api")
 
 return {
 	-- only needed if you want to use the commands with "_with_window_picker" suffix

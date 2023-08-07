@@ -1,6 +1,6 @@
 -- https://github.com/folke/todo-comments.nvim
 
-local api = require("utils.api")
+local api = require("api")
 local options = require("core.options")
 
 return {

@@ -5,7 +5,7 @@ return {
 	-- event = "VeryLazy",
 	event = {"BufRead", "BufAdd"},
 	config = function()
-		local api = require("utils.api")
+		local api = require("api")
 		api.map.bulk_regist({
 			{
 				mode = {'n'},

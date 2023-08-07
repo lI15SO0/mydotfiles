@@ -1,5 +1,14 @@
 # UpdateLog
 
+## 2023-08-07
+---
+
+nvim:
+    [Delete] utils/public
+    [CHANGE] move utils/api out of utils dir.
+
+---
+
 ## 2023-08-06
 ---
 

@@ -1,4 +1,4 @@
-local api = require("utils.api")
+local api = require("api")
 
 local path="plugins.editor"
 local plugins = {
