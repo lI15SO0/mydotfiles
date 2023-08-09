@@ -21,15 +21,13 @@ These Dotfile contain follow software's dot file;
 
 ---
 
-1. Install packer as neovim plugins manager;
+1. Copy dotfile.
 
-2. comment all "require(...)" on "lua/basic/plugins.lua" to make sure all packer can initialize.
+2. Run neovim once. while Lazy finish download, exit neovim.
+   
+3. Run neovim and install treesitter parser and mason lspserver.
 
-3. use ":PackerSync" to install all plugins;
-
-NOTE: If something insatll failed. Need to re-start neovim and execute ":PackerSync" command again.
-
-4. enjoy this neovim setting
+NOTE: On windows platform. make sure fterm set cmd and make sure telescope-fzf use correct make.exe to build fzf.
 
 --
 
@@ -62,4 +60,4 @@ I will add these patched at future:
 
 --
 
-This polybar's config file is base on ["mihirlad55/polybar-dwm-module"](https://github.com/mihirlad55/polybar-dwm-module)
+This polybar's source code base on ["mihirlad55/polybar-dwm-module"](https://github.com/mihirlad55/polybar-dwm-module)
