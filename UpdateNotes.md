@@ -11,6 +11,9 @@ nvim:
     [CHANGE] Add <C-p> mapping to abort cmp menu.
     [FIX] Fix colorizer setup
 
+    [ADD] snippets package.json
+    [CHANGE] snippets.lua : luasnip add multi snip loader
+
 ---
 
 ## 2023-08-07

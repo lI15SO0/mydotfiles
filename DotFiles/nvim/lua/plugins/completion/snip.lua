@@ -59,7 +59,21 @@ function M.snipInit()
 	elseif options.snip.engine == "snippy" then
 		M.snippy = require "snippy"
 	elseif options.snip.engine == "luasnip" then
-		require("luasnip.loaders.from_" .. options.snip.luasnip_method).lazy_load({
+		require("luasnip.loaders.from_snipmate").lazy_load({
+			paths = {
+				options.snip.snippath,
+				vim.fn.stdpath("data") .. '/lazy/friendly-snippets',
+			}
+		})
+
+		require("luasnip.loaders.from_lua").lazy_load({
+			paths = {
+				options.snip.snippath,
+				vim.fn.stdpath("data") .. '/lazy/friendly-snippets',
+			}
+		})
+
+		require("luasnip.loaders.from_vscode").lazy_load({
 			paths = {
 				options.snip.snippath,
 				vim.fn.stdpath("data") .. '/lazy/friendly-snippets',
