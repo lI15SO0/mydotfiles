@@ -1,9 +1,23 @@
 # UpdateLog
 
+## 2023-08-17
+---
+
+nvim:
+
+    [CHANGE] Snip engine switch to luasnip
+    [CHANGE] Change colorschema to nightfox_duskfox
+    [CHANGE] Cancle cmp <CR> mapping.
+    [CHANGE] Add <C-p> mapping to abort cmp menu.
+    [FIX] Fix colorizer setup
+
+---
+
 ## 2023-08-07
 ---
 
 nvim:
+
     [Delete] utils/public
     [CHANGE] move utils/api out of utils dir.
 
@@ -13,6 +27,7 @@ nvim:
 ---
 
 nvim:
+
     [CHANGE] neotree new window use "rounded" border instade "options.border".
 
 ---
@@ -21,7 +36,8 @@ nvim:
 
 ---
 
-nvim: 
+nvim:
+
     [Re] rewrite all nvim dotfiles, now plugins manager using Lazy, These can make nvim bootup faster.
     [ TODO ] now vsnip will throws a error "E474 Attemp to decode a blank string".
 
@@ -32,6 +48,7 @@ nvim:
 ---
 
 polybar:
+
     [CHANGE] module/cpu interval fron 0.5 change to 1.0
     [CHANGE] module/wlan delete %local_ip%
     [CHANGE] module/eth delete %local_ip%
@@ -47,7 +64,6 @@ polybar:
 nvim:
 
 	[ADD] setting.lua new line 58 add fold expr. Using treesitter to support fold.
-
 	[CHANGE] enable treesitter's incremental_selection function.
 
 

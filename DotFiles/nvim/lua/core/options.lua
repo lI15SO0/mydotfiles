@@ -44,7 +44,13 @@ options.snip = {}
 --		1. vsnip
 --		2. snippy
 --		3. luasnip
-options.snip.engine = "vsnip"
+options.snip.engine = "luasnip"
 options.snip.snippath = api.path.join(vim.fn.stdpath("config"), "snippets")
+
+--> avaliable value:
+-->		1. lua
+-->		2. snipmate
+-->		3. vscode
+options.snip.luasnip_method = "vscode"
 
 return options

@@ -1,7 +1,9 @@
 local options = require("core.options")
 
 return {
-	"navarasu/onedark.nvim",
+	{
+	-- "navarasu/onedark.nvim",
+	"EdenEast/nightfox.nvim",
 	dependencies = {
 		"nvim-lualine/lualine.nvim",
 		"nvim-tree/nvim-web-devicons",
@@ -11,6 +13,7 @@ return {
 	lazy = false,
 	priority = 1000,
 	config = function ()
+			--[[
 		require("onedark").setup {
 			-- Main options --
 			style = 'deep', -- Default theme style. Choose between 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer' and 'light'
@@ -51,7 +54,14 @@ return {
 			},
 		}
 		require("onedark").load()
+			]]
+		require("nightfox.config").set_fox("duskfox")
+		require("nightfox").setup({
+			transparent = options.transparent,
+		})
+		require("nightfox").load()
 		require("lualine").setup()
 		require("barbecue").setup()
 	end
+	}
 }
