@@ -23,6 +23,7 @@ settings.o = {
 	-- 是否开启命令行补全
 	wildmenu = true,
 	-- 是否开启在搜索时如果有大写字母，则关闭忽略大小写的选项
+	ignorecase = true,
 	smartcase = true,
 	-- 拼写检查
 	spell = true,

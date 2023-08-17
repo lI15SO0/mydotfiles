@@ -1,5 +1,15 @@
 # UpdateLog
 
+## 2023-08-18
+
+---
+
+nvim:
+
+    [CHANGE] add ignorecase
+
+---
+
 ## 2023-08-17
 ---
 
