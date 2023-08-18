@@ -7,6 +7,7 @@
 nvim:
 
     [CHANGE] add ignorecase
+    [CHANGE] alpha startup screen.
 
 ---
 
