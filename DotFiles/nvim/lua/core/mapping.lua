@@ -159,14 +159,14 @@ api.map.bulk_regist({
 	},
 	{
 		mode = {'n'},
-		key = '<C-z>',
+		key = '<C-t>',
 		fn = ':bp<CR>',
 		options = {silent = true},
 		description = 'Prev buffer',
 	},
 	{
 		mode = {'n'},
-		key = '<A-z>',
+		key = '<C-y>',
 		fn = ':bn<CR>',
 		options = {silent = true},
 		description = 'Next buffer',

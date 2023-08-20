@@ -6,7 +6,7 @@
 
 nvim:
 
-    [CHANGE] nvim key bind change : <C-z> :bp    <A-z> :bn
+    [CHANGE] nvim key bind change : <C-t> :bp    <C-y> :bn
     [ADD] Snippets cpp header file program once snip, "pgonce"
 
 ---
