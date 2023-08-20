@@ -166,7 +166,7 @@ api.map.bulk_regist({
 	},
 	{
 		mode = {'n'},
-		key = '<C-x>',
+		key = '<A-z>',
 		fn = ':bn<CR>',
 		options = {silent = true},
 		description = 'Next buffer',

@@ -22,7 +22,7 @@
 			},
 			{
 				"language": [
-					"go"
+					"mod"
 				],
 				"path": "./go.mod.json"
 			},
