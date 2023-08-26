@@ -1,5 +1,15 @@
 # UpdateLog
 
+## 2023-08-26
+
+---
+
+nvim: 
+    
+    [CHANGE] Switch 'showmatch' config
+
+---
+
 ## 2023-08-21
 
 ---

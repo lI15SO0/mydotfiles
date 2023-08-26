@@ -50,7 +50,7 @@ settings.o = {
 	-- 是否开启高亮搜索
 	hlsearch = true,
 	-- 是否在插入括号时短暂跳转到另一半括号上
-	showmatch = true,
+	showmatch = false,
 	-- 代码折叠
 	foldenable = true,
 	foldmethod = "expr",
