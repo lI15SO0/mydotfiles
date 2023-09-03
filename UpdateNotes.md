@@ -1,5 +1,15 @@
 # UpdateLog
 
+## 2023-09-04
+
+---
+
+nvim:
+
+    [CHANGE] nvim/lua/plugins/completion/snip.lua: change luasnip expand_or_jumpable to expand_or_locally_jumpable.
+
+---
+
 ## 2023-08-26
 
 ---

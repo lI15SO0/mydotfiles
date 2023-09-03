@@ -118,7 +118,7 @@ function M.jumpable()
 			return true
 		end
 	elseif options.snip.engine == "luasnip" then
-		if M.luasnip.expand_or_jumpable() then
+		if M.luasnip.expand_or_locally_jumpable() then
 			return true
 		end
 	end
