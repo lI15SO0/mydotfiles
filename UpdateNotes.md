@@ -4,6 +4,14 @@
 
 ---
 
+[REMOVE] remove nvim configure files. now at [lI15SO0/nvim-config](https://github.com/lI15SO0/nvim-config)
+
+---
+
+## 2023-09-04
+
+---
+
 nvim:
 
     [CHANGE] nvim/lua/plugins/completion/snip.lua: change luasnip expand_or_jumpable to expand_or_locally_jumpable.
