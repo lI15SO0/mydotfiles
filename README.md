@@ -1,4 +1,4 @@
-# My Dot FIles
+# My Dot Files
 
 ---
 
@@ -6,7 +6,6 @@ Dotfiles ：
 These Dotfile contain follow software's dot file;
 
 ```
-	neovim
 	alacritty
 	dwm
 	picom
@@ -16,20 +15,6 @@ These Dotfile contain follow software's dot file;
 	starship
 	gtk-style (2, 3)
 ```
-
-## How to use neovim's dotfile
-
----
-
-1. Copy dotfile.
-
-2. Run neovim once. while Lazy finish download, exit neovim.
-   
-3. Run neovim and install treesitter parser and mason lspserver.
-
-NOTE: On windows platform. make sure fterm set cmd and make sure telescope-fzf use correct make.exe to build fzf.
-
---
 
 ## About dwm files
 
