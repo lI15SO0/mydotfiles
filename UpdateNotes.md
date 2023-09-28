@@ -1,5 +1,16 @@
 # UpdateLog
 
+## 2023-09-29
+
+---
+
+alacritty:
+
+    [CHANGE] change font from FiraCode to UbuntuMono.
+    [CHANGE] change font size to 11.
+
+---
+
 ## 2023-09-04
 
 ---
