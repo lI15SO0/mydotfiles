@@ -1,0 +1,30 @@
+
+[cursor]
+blink_interval = 500
+
+[cursor.style]
+blinking = "Off"
+
+[font]
+size = 10
+
+[font.bold]
+family = "UbuntuMono Nerd Font Mono"
+
+[font.bold_italic]
+family = "UbuntuMono Nerd Font Mono"
+
+[font.italic]
+family = "UbuntuMono Nerd Font Mono"
+
+[font.normal]
+family = "UbuntuMono Nerd Font Mono"
+
+[font.offset]
+x = 0
+y = 0
+
+[window]
+opacity = 0.5
+decorations = "Full"
+dynamic_title = true
