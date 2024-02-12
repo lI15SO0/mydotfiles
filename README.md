@@ -14,13 +14,14 @@ These Dotfile contain follow software's dot file;
 	start-up-scripts
 	starship
 	gtk-style (2, 3)
+    workspace_configures
 ```
 
 ## About dwm files
 
 -- 
 
-Source code VERSION: 6.3
+Source code VERSION: 6.4
 
 Dwm source code use the [ original LICENSE ](https://git.suckless.org/dwm/plain/LICENSE).
 
