@@ -1,56 +1,64 @@
 format = """
-$directory [:](bold) $username$hostname [:](bold) $localip $memory_usage$time
-$shell$character
-"""
-scan_timeout = 3
-
-right_format = """[<- ](bold 13)$all"""
-
-[character]
-success_symbol = "[->](bold 13)"
-error_symbol = "[~x](bold red)"
-vicmd_symbol = "[/>](bold 13)"
+[░▒▓](#a3aed2)\
+[ 󰣨 ](bg:#a3aed2 fg:#090c0c)\
+[](bg:#769ff0 fg:#a3aed2)\
+$directory\
+[](fg:#769ff0 bg:#394260)\
+$git_branch\
+$git_status\
+[](fg:#394260 bg:#212736)\
+$nodejs\
+$rust\
+$golang\
+$php\
+[](fg:#212736 bg:#1d2230)\
+$time\
+[ ](fg:#1d2230)\
+\n$character"""
 
 [directory]
-style = "bold 13"
-read_only = "X "
-read_only_style = "bold #FFA500"
-truncation_symbol = "..|"
-format = "[$read_only]($read_only_style)[$path]($style)"
+style = "fg:#e3e5e5 bg:#769ff0"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
 
-[cmd_duration]
-min_time = 0
-show_milliseconds = true
-show_notifications = true
-min_time_to_notify = 6000
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
 
-[memory_usage]
-threshold = 0
-disabled = false
-style = "bold bright-cyan"
-format = "[mem $ram_pct]($style)"
+[git_branch]
+symbol = ""
+style = "bg:#394260"
+format = '[[ $symbol $branch ](fg:#769ff0 bg:#394260)]($style)'
 
-[localip]
-ssh_only = false
-disabled = false
-style = "bold 13"
-format = "[$localipv4]($style)"
+[git_status]
+style = "bg:#394260"
+format = '[[($all_status$ahead_behind )](fg:#769ff0 bg:#394260)]($style)'
 
-[hostname]
-ssh_only = false
-# ssh_symbol = "🌐"
-format = "[$hostname](bold 13)"
+[nodejs]
+symbol = ""
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
 
-[username]
-style_root = "bold cyan"
-style_user = "bold 13"
-show_always = false
-format = "[$user]($style) @ "
+[rust]
+symbol = ""
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
 
-[shell]
-disabled = false
+[golang]
+symbol = ""
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
+
+[php]
+symbol = ""
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
 
 [time]
-format = "[$time]($style)"
-time_format = "%v %T"
 disabled = false
+time_format = "%R" # Hour:Minute Format
+style = "bg:#1d2230"
+format = '[[  $time ](fg:#a0a9cb bg:#1d2230)]($style)'
