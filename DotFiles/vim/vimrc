@@ -1,0 +1,3 @@
+source ~/.vim/core/keymap.vim
+source ~/.vim/core/settings.vim
+source ~/.vim/core/autocmd.vim
