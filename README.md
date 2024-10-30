@@ -7,7 +7,6 @@ These Dotfile contain follow software's dot file;
 
 ```
 	alacritty
-	dwm
 	picom
 	rime
 	scripts
@@ -15,6 +14,9 @@ These Dotfile contain follow software's dot file;
 	starship
 	gtk-style (2, 3)
     workspace_configures
+	Hyprland
+	mako
+	wofi
 ```
 
 ## About dwm files
@@ -42,8 +44,8 @@ I will add these patched at future:
 
 --
 
-## About polybar
+## About Waybar & Mako
 
 --
 
-This polybar's source code base on ["mihirlad55/polybar-dwm-module"](https://github.com/mihirlad55/polybar-dwm-module)
+Copy from https://cascade.moe/posts/hyprland-configure/
