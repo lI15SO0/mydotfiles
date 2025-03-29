@@ -1,0 +1,60 @@
+[alias]
+br = "b -r"
+rr = "run --release"
+t = "test"
+cl = "clean"
+
+[build]
+rustflags = "-C target-cpu=native"
+
+[source.crates-io]
+replace-with = 'mirror'
+
+[source.mirror]
+registry = "sparse+https://mirrors.cernet.edu.cn/crates.io-index/"
+
+# 开发模板, 对应`cargo build`命令
+[profile.dev]
+opt-level = 0  
+debug = true   
+rpath = false  
+lto = false    
+debug-assertions = true  
+codegen-units = 1 
+# 发布模板, 对应`cargo build --release`命令
+[profile.release]
+opt-level = 3
+debug = false
+rpath = false
+lto = "fat"
+debug-assertions = false
+codegen-units = 1
+panic = 'abort'
+strip = "symbols"
+# 测试模板，对应`cargo test`命令
+[profile.test]
+opt-level = 0
+debug = true
+rpath = false
+lto = true
+debug-assertions = true
+codegen-units = 1
+strip = "symbols"
+# 性能评估模板，对应`cargo bench`命令
+[profile.bench]
+opt-level = 3
+debug = false
+rpath = false
+lto = true
+debug-assertions = false
+codegen-units = 1
+strip = "symbols"
+# 文档模板，对应`cargo doc`命令
+[profile.doc]
+opt-level = 0
+debug = true
+rpath = false
+lto = true
+debug-assertions = true
+codegen-units = 1
+strip = "symbols"
