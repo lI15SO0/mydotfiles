@@ -1,4 +1,3 @@
-
 [cursor]
 blink_interval = 500
 
@@ -6,25 +5,31 @@ blink_interval = 500
 blinking = "Off"
 
 [font]
-size = 10
+size = 12
+builtin_box_drawing = true
 
 [font.bold]
-family = "UbuntuMono Nerd Font Mono"
+family = "Maple Mono NF CN"
 
 [font.bold_italic]
-family = "UbuntuMono Nerd Font Mono"
+family = "Maple Mono NF CN"
 
 [font.italic]
-family = "UbuntuMono Nerd Font Mono"
+family = "Maple Mono NF CN"
 
 [font.normal]
-family = "UbuntuMono Nerd Font Mono"
+family = "Maple Mono NF CN"
 
 [font.offset]
 x = 0
 y = 0
 
+[font.glyph_offset]
+x = 0
+y = 0
+
 [window]
-opacity = 0.9
+opacity = 0.80
 decorations = "Full"
 dynamic_title = true
+resize_increments = true
