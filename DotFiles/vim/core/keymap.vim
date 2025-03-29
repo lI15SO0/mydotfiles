@@ -1,8 +1,6 @@
 let mapleader = '`'
 
 nm <space> :
-nm d dd
-nm y yy
 nm U :redo<CR>
 nm H ^
 nm L $
